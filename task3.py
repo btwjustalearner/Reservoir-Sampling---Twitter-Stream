@@ -78,11 +78,11 @@ class MyStreamListener(tweepy.StreamListener):
 portnumber = int(sys.argv[1])
 output_file_path = sys.argv[2]
 
-consumer_key = 'ysiJi5YecbDcd4qD1BOE7Nncm'
-consumer_secret = 'C9mtHsXQKAl0w93zZ3Yds1o80mmdFwC0ukb7tjZ3WdT07OCrwb'
+consumer_key = ''
+consumer_secret = ''
 
-access_token = '749843357740855296-Nfxt2NGJnrjf8YxJBbRZ5ZbuqxDPXZj'
-access_secret = 'UA9FWNZYIsEpTKrLn3sYpkbItzkqjznNKLokt1h6cdqAh'
+access_token = ''
+access_secret = ''
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
